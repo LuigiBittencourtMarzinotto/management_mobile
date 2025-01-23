@@ -1,4 +1,4 @@
-package com.example.management_mobile_qr_code
+package com.example.management_mobile
 
 import io.flutter.embedding.android.FlutterActivity
 

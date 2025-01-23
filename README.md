@@ -1,4 +1,4 @@
-# management_mobile_qr_code
+# management_mobile
 
 A new Flutter project.
 
