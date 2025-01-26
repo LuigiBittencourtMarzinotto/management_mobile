@@ -3,11 +3,11 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 
     dependencies {
-        // Atualize com a versão correta do AGP (7.4.1 ou outra compatível)
-        classpath 'com.android.tools.build:gradle:7.4.1'  // Versão AGP recomendada
+        classpath 'com.android.tools.build:gradle:8.1.1'  // Versão AGP recomendada
     }
 }
 
@@ -52,6 +52,7 @@ allprojects {
     repositories {
         google()
         mavenCentral()
+        jcenter()
     }
 }
 
