@@ -56,8 +56,8 @@ Management Mobile é um aplicativo de inventário de equipamentos, desenvolvido 
 ## 🛠️ Tecnologias Utilizadas
 - **Framework:** Flutter
 - **Gerenciamento de Estado:** MVVM ou similar
-- **Leitor de QR Code:** `flutter_qr_bar_scanner` ou `qr_code_scanner`
-- **Banco de Dados Local:** SQLite ou SharedPreferences
+- **Leitor de QR Code:** `flutter_qr_bar_scanner` 
+- **Banco de Dados Local:** SQLite
 - **Ferramenta para Geração de QR Code:** [QR.io](https://qr.io/)
 
 ---
