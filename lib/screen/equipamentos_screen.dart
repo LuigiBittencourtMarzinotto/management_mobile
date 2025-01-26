@@ -207,7 +207,7 @@ class _EquipamentosScreenState extends State<EquipamentosScreen>
           mensagem,
           style: const TextStyle(
             fontWeight: FontWeight.w600,
-            fontSize: 20,
+            fontSize: 15,
             color: Colors.black,
           ),
         ),
@@ -297,6 +297,7 @@ class _EquipamentosScreenState extends State<EquipamentosScreen>
                                         : "Novo inventário necessário",
                                     style: const TextStyle(
                                       color: Color.fromARGB(255, 255, 255, 255),
+                                      fontSize: 15,
                                       fontWeight: FontWeight.w700,
                                     ),
                                   ),

@@ -331,7 +331,7 @@ class _QrCodeScannerScreenState extends State<QrCodeScannerScreen> {
                           "Código: $codigo\nNome: $nome\nDescrição: $descricao",
                           textAlign: TextAlign.center,
                           style: const TextStyle(
-                            fontSize: 20,
+                            fontSize: 15,
                             fontWeight: FontWeight.bold,
                           ),
                         ),
@@ -367,7 +367,7 @@ class _QrCodeScannerScreenState extends State<QrCodeScannerScreen> {
                               create ? _salvarEquipamento : _validarInventario,
                           child: Text(
                             create ? "Adicionar" : "Validar",
-                            style: TextStyle(fontSize: 20, color: Colors.black),
+                            style: TextStyle(fontSize: 15, color: Colors.black),
                           ),
                         ),
                         const SizedBox(width: 20),
@@ -375,7 +375,7 @@ class _QrCodeScannerScreenState extends State<QrCodeScannerScreen> {
                           onPressed: _resetScanner,
                           child: const Text(
                             "Cancelar",
-                            style: TextStyle(fontSize: 20, color: Colors.white),
+                            style: TextStyle(fontSize: 15, color: Colors.white),
                           ),
                           style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.red,
